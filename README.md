@@ -1,20 +1,16 @@
-# Compound Interest Calculator
+# Python Practice
 
-A beginner Python project that calculates compound interest year by year.
+My Python learning journey.
 
-## Features
+This repository contains Python practice programs, exercises, and mini-projects that I build while learning Python.
 
-- User inputs principal amount
-- User inputs interest rate
-- User inputs time period
-- Displays yearly growth
-- Displays total gains
-- Displays final amount after compounding
+## Projects
 
-## Example
+### Compound Interest Calculator-->29th June 2026
+Calculates compound interest year-by-year and displays:
+- Annual growth
+- Interest earned each year
+- Total gains
+- Final amount
 
-Principal: 30000
-Rate: 10%
-Time: 20 years
-
-Final Amount: 201825
+More projects will be added as I continue learning.
