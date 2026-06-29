@@ -18,3 +18,10 @@ Rate: 10%
 Time: 20 years
 
 Final Amount: 201825
+## What I Learned
+
+- Variables and user input
+- Loops
+- Compound interest calculations
+- Debugging logic errors
+- Using GitHub for version control
