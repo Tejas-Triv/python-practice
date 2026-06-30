@@ -26,11 +26,11 @@ for year in range(1,t+1):
     realprincipal = current_principal / inflation_factor ** (year) #added power^year to make code correct
     
     if inflation_choice.lower()=='y':
-        print ('Year-',year,'interest acquired=',round(interest),'Current Principal(raw)=',round(current_principal),'total gains(raw)=',round(current_principal-principal),'inflation adjusted principal=',round(realprincipal),'net gains=',round(realprincipal-principal),sep='|')
+        print ('Year-',year,'interest acquired=',round(interest),'Current Principal(raw)=',round(current_principal),'total gains(raw)=',round(current_principal-principal),'inflation adjusted principal=',round(realprincipal),'net gains=',round(realprincipal-principal),sep='|',end='|\n')
     else:
-        print ('Year-',year,'interest acquired=',round(interest),'Current Principal(raw)=',round(current_principal),'total gains(raw)=',round(current_principal-principal),sep='|')
+        print ('Year-',year,'interest acquired=',round(interest),'Current Principal(raw)=',round(current_principal),'total gains(raw)=',round(current_principal-principal),sep='|',end='|\n')
 
     print (title_line)
 
-print ('Initial Principal was:',principal,'Final Principal(raw) after',t,'years is:',round(current_principal),'net gains(raw)=',round(current_principal-principal),'Real Principal=',round(realprincipal),'net gains=',round(realprincipal-principal))
+print ('Initial Principal was:',principal,'Final Principal(raw) after',t,'years is:',round(current_principal),'net gains(raw)=',round(current_principal-principal),'Real Principal=',round(realprincipal),'net gains=',round(realprincipal-principal),sep='|',end='|\n')
 print (title_line)
