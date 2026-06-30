@@ -12,19 +12,18 @@ print (title_line)
 
 realprincipal = principal
 current_principal = principal
-interest = 0
 
 if inflation_choice.lower()=='y':
-    inflation = float(input('enter yearly inflation rate(in%)'))
+    inflation_percent = float(input('enter yearly inflation rate(in%)'))
 else:
-    inflation = 0
+    inflation_percent = 0
 
-inflation_factor = 1 - inflation #improve readability
+inflation_factor = 1 + inflation_percent / 100 #improve readability
 
 for year in range(1,t+1):
     interest = current_principal * r / 100 #rearranged interest and newprincipal order to display correct year interest
     current_principal += interest
-    realprincipal = current_principal * inflation_factor ** (year) #added power^year to make code correct
+    realprincipal = current_principal / inflation_factor ** (year) #added power^year to make code correct
     
     if inflation_choice.lower()=='y':
         print ('Year-',year,'interest acquired=',round(interest),'Current Principal(raw)=',round(current_principal),'total gains(raw)=',round(current_principal-principal),'inflation adjusted principal=',round(realprincipal),'net gains=',round(realprincipal-principal),sep='|')
