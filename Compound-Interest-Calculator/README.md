@@ -16,8 +16,11 @@ A beginner Python project that calculates compound interest year by year.
 Principal: 30000
 Rate: 10%
 Time: 20 years
+Inflation Rate: 6%
 
-Final Amount: 201825
+Final Amount(Raw): 201825
+Inflation Adjusted Final Amount: 62930
+Net Gains: 32930
 ## What I Learned
 
 - Variables and user input
