@@ -1,4 +1,4 @@
-title_line = '=' * 40 #to make code clearer
+title_line = '=' * 250 #to make code clearer
 
 print ('Compound Interest Analyser')
 print (title_line)
