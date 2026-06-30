@@ -1,4 +1,4 @@
-title_line = '=' * 250 #to make code clearer
+title_line = '=' * 184 #to make code clearer
 
 print ('Compound Interest Analyser')
 print (title_line)
@@ -6,7 +6,7 @@ print (title_line)
 principal = float (input ('enter principal amount'))
 r = float(input('enter rate of interest'))
 t = int(input('enter time in years'))
-inflation_choice = input('do u want to take in account for inflation?: enter y or n')#adding inflation calculation
+inflation_choice = input('do u want to take in account for inflation? enter y or n: ')#adding inflation calculation
 
 print (title_line)
 
